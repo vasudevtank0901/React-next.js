@@ -1,68 +1,67 @@
-body {
-    font-family: Arial;
-    background: #ffffff;
+body{
+font-family:Arial;
+background:#f2f6ff;
 }
-.container {
-    width: 600px;
-    margin: auto;
-    margin-top: 40px;
-    padding: 20px;
-    background: #f5ca93;
-    border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(221, 24, 24, 0.1);
-}
-h2 {
-    text-align: center;
-    color: #241f1f;
-}
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-.form input {
-    padding: 8px;
-    border: 1px solid #413535;
-    border-radius: 5px;
+.container{
+width:600px;
+margin:auto;
+margin-top:40px;
+padding:20px;
+background:rgb(223, 170, 26);
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
-.form button {
-    padding: 10px;
-    background: #14537c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+h2{
+text-align:center;
+color:#333;
 }
-.form button:hover {
-    background: #0f5786;
+.form{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-bottom:20px;
+}
+
+.form input{
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+.form button{
+background:#4CAF50;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+.form button:hover{
+background:#43a047;
 }
 
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
 }
-thead {
-    background: hsl(145, 76%, 23%);
-    color: white;
+thead{
+background:#2196F3;
+color:white;
 }
-td {
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: center;
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+text-align:center;
 }
-tbody tr:nth-child(even) {
-    background: #f9f9f9;
+tbody tr:nth-child(even){
+background:#f9f9f9;
 }
-.details {
-    margin-top: 15px;
-    padding: 10px;
-    background: #ecf0f1;
-    border-radius: 5px;
-}
-.details p {
-    margin: 5px 0;
+.details{
+margin-top:15px;
+padding:10px;
+background:#e8f5e9;
+border-radius:5px;
 }

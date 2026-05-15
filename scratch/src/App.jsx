@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import StudentTable from './Components/StudentTable'
+import React from "react";
+import StudentForm from "./Components/StudentForm";
 
 function App() {
   return (
-   <>
-    <StudentTable/>
-   </>
-  )
+    <div>
+      <StudentForm/>
+    </div>
+
+  );
 }
 
-export default App
+export default App;
